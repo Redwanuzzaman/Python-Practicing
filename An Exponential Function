@@ -1,0 +1,13 @@
+def exponential(base, power):
+    result = 1
+    for i in range(power):
+        result = result * base
+    return result
+
+n1 = int(input("Enter Base: "))
+n2 = int(input("Enter Power: "))
+
+answer = exponential(n1, n2)
+
+print("The Answer is: ", end = " ")
+print(answer)
