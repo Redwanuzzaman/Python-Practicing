@@ -57,6 +57,9 @@ id2 = id.copy(); # copies id array as it is at id2
 print("id2 =", end = " ")
 print(id2)
 
+# LIST LENGTH CHECKING FUNCTION
+print(len(id2)) # prints the number of elements present in id2 array
+
 # LIST CLEAR FUNCTION
 id2.clear();
 print("After Clearing id2 becomes:", end = " ")
