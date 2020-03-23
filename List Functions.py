@@ -33,6 +33,11 @@ string_array.remove("Mello")
 print("String Array after removing \'Mello\'", end = " ")
 print(string_array)
 
+# FINDING AN INDEX OF A VALUE IN LIST
+print(id)
+a = id.index(1)
+print("Index of 1 is: ", a)   # id = {4, 3, 4, 2, 1 , 5} So, the index of 1 is 4 
+
 # LIST POP FUNCTION
 id.pop() # Pops the last element of the array
 print("After Poping:", end = " ")
