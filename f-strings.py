@@ -15,3 +15,7 @@ print(f'{needed_percent}% from {hundred_percent_number} is {needed_percent_numbe
  
 print(f'Rounding {needed_percent_number} to 1 decimal place is {needed_percent_number:.1f}')
 # Rounding 291.68 to 1 decimal place is 291.7
+
+
+'{} divided by {} equals {:.5f}'.format(100, 6, 100/6) 
+# 100 divided by 6 equals 16.66667
