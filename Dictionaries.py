@@ -25,3 +25,9 @@ print(my_dict) # {'Sayem': 1, 'Roktim': 3}
 my_dict.popitem()
 print(my_dict) # {'Sayem': 1}
 
+# Looping Through Dictionaries
+counts = dict()
+for line in input_file:
+    words = line.split()
+    for word in words:
+        counts[word] = counts.get(word, 0) + 1
