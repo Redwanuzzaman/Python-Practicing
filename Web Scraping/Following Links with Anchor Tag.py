@@ -8,7 +8,11 @@ ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
 url = input('Enter - ')
+
+# This opens the link.
 html = urllib.request.urlopen(url, context=ctx).read()
+
+# This parses through the html tags and makes a tree.
 soup = BeautifulSoup(html, 'html.parser')
 
 # Retrieve all of the anchor tags
