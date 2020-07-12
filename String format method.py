@@ -24,6 +24,12 @@ print('The {0} was {adjective}!'.format(adjective='incredible', 'Lord of the Rin
 # SyntaxError: positional argument follows keyword argument
 
 
-# take 5 positions from right
-for i in range(1, 10000, 100):
-    print("{:>5}".format(i))
+# printing in different positions
+print("{:>10}".format('Python')) # take 10 positions from right and prints from right
+print("{:<10}".format('Python')) # take 10 positions from left and prints from left
+print("{:^10}".format('Python')) # take 10 positions and aligned in center
+
+#     Python
+# Python    
+#   Python  
+
