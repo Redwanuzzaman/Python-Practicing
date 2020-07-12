@@ -22,3 +22,8 @@ print('The {0} was {adjective}!'.format('Lord of the Rings', adjective='incredib
 
 print('The {0} was {adjective}!'.format(adjective='incredible', 'Lord of the Rings'))
 # SyntaxError: positional argument follows keyword argument
+
+
+# take 5 positions from right
+for i in range(1, 10000, 100):
+    print("{:>5}".format(i))
