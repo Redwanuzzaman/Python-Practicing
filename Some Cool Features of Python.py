@@ -88,6 +88,7 @@ else:
     print"False"
     
     
-# for loop: Unlike C,C++ you don’t need to worry about initializing the variable and incrementing it. Python made this so simple,
+# for loop: Unlike C,C++ you don’t need to worry about initializing the variable and incrementing it. 
+# Python made this so simple,
 for letter in 'PYTHON':
     print letter
