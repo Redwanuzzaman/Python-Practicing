@@ -1,3 +1,5 @@
+# Calculate data from table in a web page
+
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import ssl
