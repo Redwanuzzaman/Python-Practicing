@@ -1,3 +1,5 @@
+# parsing information from a XML file
+
 from urllib.request import urlopen
 import xml.etree.ElementTree as ET
 
