@@ -1,3 +1,6 @@
+# Statistics Modules of python 
+
+
 from statistics import mean, median, mode, variance
 
 print(mean([10, 20, 30, 40, 50, 60])) # Average 35
