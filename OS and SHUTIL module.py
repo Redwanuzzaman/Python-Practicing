@@ -1,13 +1,13 @@
 import os
 import shutil
 
-print(os.getcwd())
+print(os.getcwd())  # current directory
 original_path = "C:/Users/Md Redwanuzzaman/Desktop"
-os.chdir(original_path)
+os.chdir(original_path)  # changing directory
 
 print(os.getcwd())
 try:
-    os.makedirs('PyFolder')
+    os.makedirs('PyFolder')  # making a folder
 except:
     print("Folder Already Exist")
 
