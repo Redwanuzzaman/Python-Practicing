@@ -31,3 +31,8 @@ for line in input_file:
     words = line.split()
     for word in words:
         counts[word] = counts.get(word, 0) + 1
+
+ 
+# Updating values in Dict
+
+dictionary[key] = dictionary.get(key, 0) + 1
