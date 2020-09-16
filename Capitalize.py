@@ -1,4 +1,4 @@
-# Upper case the first letter in a sentence
+# Upper case the first letter in a sentence.
 
 txt = "hello, and welcome to my world."
 x = txt.capitalize()
